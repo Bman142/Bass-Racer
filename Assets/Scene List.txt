@@ -1,4 +1,3 @@
 Scene List:
-Scene 0: Ben Testing (To be removed before final build)
-Scene 1: Title Scene
-Scene 2: Level
+Scene 0: Title Scene
+Scene 1: Level

@@ -27,7 +27,6 @@ public class PlayerMovement : MonoBehaviour
         {
             if (grounded)
             {
-                Debug.Log("jump");
                 rb.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
             }
         }
