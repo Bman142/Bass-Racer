@@ -28,11 +28,12 @@ public class PlayerMovement : MonoBehaviour
             if (grounded)
             {
                 rb.AddForce(new Vector2(0, jumpHeight), ForceMode2D.Impulse);
+                grounded = false;
             }
         }
     }
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+     {
         grounded = true;
         if(collision.gameObject.tag == "Obstacal")
         {
@@ -41,6 +42,7 @@ public class PlayerMovement : MonoBehaviour
     }
     private void OnCollisionExit2D(Collision2D collision)
     {
-        grounded = false;
+        //if (!grounded) { return; }
+        //grounded = false;
     }
 }

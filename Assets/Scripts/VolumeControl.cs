@@ -7,7 +7,7 @@ using UnityEngine.UI;
 public class VolumeControl : MonoBehaviour
 {
     private Slider slider;
-    public AudioSource audio;
+    public new AudioSource audio;
     // Start is called before the first frame update
     void Start()
     {
