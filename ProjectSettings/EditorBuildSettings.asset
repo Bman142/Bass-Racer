@@ -8,10 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Title.unity
     guid: 0934dfbf64d24b043a384079042f63be
-  - enabled: 0
-    path: Assets/Scenes/Level.unity
-    guid: 4fcbaa9a2b6d5d543b54fa027be64287
   - enabled: 1
-    path: Assets/Scenes/Brendan Testing.unity
+    path: Assets/Scenes/Level.unity
     guid: 303e3e2d57a67c943a1fec3bffb15877
   m_configObjects: {}
